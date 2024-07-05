@@ -15,7 +15,7 @@ export const workSpaceListDetails = [
     description: null,
     rules: null,
     amenities: ["Conferencing facilities", "Parking"],
-    image: "/src/assets/images/data/5934c0fd9d574bddbde8175d86a2d2da.jpg",
+    image: "/assets/images/data/5934c0fd9d574bddbde8175d86a2d2da.jpg",
     working_hours_start: "00:00",
     working_hours_end: "23:59",
     contact_person_name: "Lavena",
@@ -52,7 +52,7 @@ export const workSpaceListDetails = [
     description: null,
     rules: null,
     amenities: ["Conferencing facilities", "Parking"],
-    image: "/src/assets/images/data/e2d0405175f74b5c815658a8ef5ef4b8.jpg",
+    image: "/assets/images/data/e2d0405175f74b5c815658a8ef5ef4b8.jpg",
     working_hours_start: "00:00",
     working_hours_end: "23:59",
     facilities: null,
@@ -89,7 +89,7 @@ export const workSpaceListDetails = [
     description: null,
     rules: null,
     amenities: ["Conferencing facilities", "Parking"],
-    image: "/src/assets/images/data/0a74575ca6004b4bb20dcd131afc5849.jpg",
+    image: "/assets/images/data/0a74575ca6004b4bb20dcd131afc5849.jpg",
     working_hours_start: "00:00",
     working_hours_end: "23:59",
     facilities: null,
@@ -126,7 +126,7 @@ export const workSpaceListDetails = [
     description: null,
     rules: null,
     amenities: null,
-    image: "/src/assets/images/data/0dfe4977f25940aa9d32507d4a233c9c.jpg",
+    image: "/assets/images/data/0dfe4977f25940aa9d32507d4a233c9c.jpg",
     working_hours_start: "00:00",
     working_hours_end: "23:59",
     facilities: null,
@@ -162,7 +162,7 @@ export const workSpaceListDetails = [
     description: null,
     rules: null,
     amenities: ["Conferencing facilities", "Parking"],
-    image: "/src/assets/images/data/4d85410baa074351aa948fc2c5da50d9.jpg",
+    image: "/assets/images/data/4d85410baa074351aa948fc2c5da50d9.jpg",
     working_hours_start: "00:00",
     working_hours_end: "23:59",
     facilities: null,
@@ -199,7 +199,7 @@ export const workSpaceListDetails = [
     description: null,
     rules: null,
     amenities: ["Conferencing facilities", "Parking"],
-    image: "/src/assets/images/data/0a74575ca6004b4bb20dcd131afc5849.jpg",
+    image: "/assets/images/data/0a74575ca6004b4bb20dcd131afc5849.jpg",
     working_hours_start: "00:00",
     working_hours_end: "23:59",
     facilities: null,
@@ -228,34 +228,34 @@ export const workSpaceListDetails = [
 export const facilitiesListDetails = [
   {
     label: "Community Events",
-    icon: "/src/assets/images/facilities/community-events.svg"
+    icon: "/assets/images/facilities/community-events.svg"
   },
   {
     label: "Gym Facilities",
-    icon: "/src/assets/images/facilities/gym.svg"
+    icon: "/assets/images/facilities/gym.svg"
   },
   {
     label: "Highspeed Wifi",
-    icon: "/src/assets/images/facilities/wifi.svg"
+    icon: "/assets/images/facilities/wifi.svg"
   },
   {
     label: "Cafe & Tea Bar",
-    icon: "/src/assets/images/facilities/cafe.svg"
+    icon: "/assets/images/facilities/cafe.svg"
   },
   {
     label: "Affordable",
-    icon: "/src/assets/images/facilities/affordable.svg"
+    icon: "/assets/images/facilities/affordable.svg"
   },
   {
     label: "Comfort Lounges",
-    icon: "/src/assets/images/facilities/lounges.svg"
+    icon: "/assets/images/facilities/lounges.svg"
   },
   {
     label: "Quick Booking",
-    icon: "/src/assets/images/facilities/quick-booking.svg"
+    icon: "/assets/images/facilities/quick-booking.svg"
   },
   {
     label: "Sports Area",
-    icon: "/src/assets/images/facilities/sports.svg"
+    icon: "/assets/images/facilities/sports.svg"
   },
 ]

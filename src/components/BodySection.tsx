@@ -5,7 +5,7 @@ function BodySection({ facilitiesList, spaceOverviewList }: any) {
         <span className="text-[#263238] font-bold text-xl sm:text-3xl md:text-4xl">
           Why Choose us?
         </span>
-        <img src="/src/assets/right-arrow-icon.svg" className="sm:invisible" />
+        <img src="/assets/right-arrow-icon.svg" className="sm:invisible" />
       </div>
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-2 lg:grid-cols-4 lg:gap-0">
         {facilitiesList.map((data: any, index: number) => (
@@ -28,7 +28,7 @@ function BodySection({ facilitiesList, spaceOverviewList }: any) {
         <span className="text-[#263238] font-bold text-xl sm:text-3xl md:text-4xl">
           Our Spaces <span className="hidden lg:inline-block">Overview</span>
         </span>
-        <img src="/src/assets/right-arrow-icon.svg" className="sm:invisible" />
+        <img src="/assets/right-arrow-icon.svg" className="sm:invisible" />
       </div>
       <div className="grid grid-cols-1 gap-8  xl:grid-cols-3 xl:gap-4 ">
         {spaceOverviewList.map((data: any) => (
@@ -42,7 +42,7 @@ function BodySection({ facilitiesList, spaceOverviewList }: any) {
               </span>
               <div className="p-1 flex flex-col bg-[#F9F9F9]  items-center">
                 <img
-                  src="/src/assets/images/data/assistant_direction.svg"
+                  src="/assets/images/data/assistant_direction.svg"
                   alt="distance-icon"
                 />
                 <span className="text-[#263238] text-xs font-medium">
@@ -57,7 +57,7 @@ function BodySection({ facilitiesList, spaceOverviewList }: any) {
                 className="h-full w-full object-cover object-center rounded-lg"
               />
               <span className="bg-gradient-to-r from-[#263238] to-[#2F4B59] text-[#FFBB00] flex items-center justify-between absolute top-2 left-2 p-2 rounded-lg text-[10px] md:text-xs">
-                <img src="/src/assets/images/data/work-space.svg" />
+                <img src="/assets/images/data/work-space.svg" />
                 Workspace
               </span>
             </div>

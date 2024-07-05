@@ -6,16 +6,13 @@ function FooterSection() {
           <span className="text-[#263238] font-bold text-xl sm:text-3xl md:text-4xl my-2">
             Download our app now
           </span>
-          <img
-            src="/src/assets/right-arrow-icon.svg"
-            className="sm:invisible"
-          />
+          <img src="/assets/right-arrow-icon.svg" className="sm:invisible" />
         </div>
         <div className="relative">
           <div className="bg-[#FFFFFF] h-[50%] shadow-[0px_0.86px_6.92px_0px_rgba(0,0,0,0.06)] rounded-lg  md:flex">
             <div className="flex justify-center w-full ">
               <img
-                src="/src/assets/images/footer/app-info-img.svg"
+                src="/assets/images/footer/app-info-img.svg"
                 alt="app-info"
                 className="object-contain w-64 sm:w-72 md:w-full lg:w-[60%]  md:h-full"
               />
@@ -30,12 +27,12 @@ function FooterSection() {
               </div>
               <div className="flex justify-center items-center md:justify-start my-2">
                 <img
-                  src="/src/assets/images/footer/google-play-img.svg"
+                  src="/assets/images/footer/google-play-img.svg"
                   alt="google-play"
                   className="w-28 sm:w-36 md:w-40 mx-2"
                 />
                 <img
-                  src="/src/assets/images/footer/app-store-img.svg"
+                  src="/assets/images/footer/app-store-img.svg"
                   alt="app-store"
                   className="w-28 sm:w-36 md:w-40 mx-2"
                 />
