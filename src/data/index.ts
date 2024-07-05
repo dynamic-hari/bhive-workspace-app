@@ -1,4 +1,4 @@
-export const data = [
+export const workSpaceListDetails = [
   {
     id: "39ab7642-8de3-4e95-aa5d-34089bc67b90",
     name: "Platinum, Indiranagar",
@@ -15,7 +15,7 @@ export const data = [
     description: null,
     rules: null,
     amenities: ["Conferencing facilities", "Parking"],
-    images: ["/public/assets/images/5934c0fd9d574bddbde8175d86a2d2da.jpg"],
+    image: "/src/assets/images/data/5934c0fd9d574bddbde8175d86a2d2da.jpg",
     working_hours_start: "00:00",
     working_hours_end: "23:59",
     contact_person_name: "Lavena",
@@ -34,6 +34,9 @@ export const data = [
       },
     },
     manager_id: null,
+    distance: "6 Kms",
+    amountPerDay: 249,
+    bulkAmount: 2400
   },
   {
     id: "f87f54e2-6ce4-4bc5-bed7-587b361b5633",
@@ -49,7 +52,7 @@ export const data = [
     description: null,
     rules: null,
     amenities: ["Conferencing facilities", "Parking"],
-    images: ["/public/assets/images/e2d0405175f74b5c815658a8ef5ef4b8.jpg"],
+    image: "/src/assets/images/data/e2d0405175f74b5c815658a8ef5ef4b8.jpg",
     working_hours_start: "00:00",
     working_hours_end: "23:59",
     facilities: null,
@@ -68,10 +71,13 @@ export const data = [
     },
     manager_id: null,
     can_edit: false,
+    distance: "6 Kms",
+    amountPerDay: 249,
+    bulkAmount: 2400
   },
   {
     id: "292caef7-95a4-493d-9575-5524b12eb0a5",
-    name: "HSR Sector 6 Service Road, Silkboard",
+    name: "HSR Sector 6 Service Road",
     address:
       "L-194, Santhosapuram, Sector 6, HSR Layout, Bengaluru, Karnataka 560101, India",
     latitude: 12.9180167,
@@ -83,7 +89,7 @@ export const data = [
     description: null,
     rules: null,
     amenities: ["Conferencing facilities", "Parking"],
-    images: ["/public/assets/images/0a74575ca6004b4bb20dcd131afc5849.jpg"],
+    image: "/src/assets/images/data/0a74575ca6004b4bb20dcd131afc5849.jpg",
     working_hours_start: "00:00",
     working_hours_end: "23:59",
     facilities: null,
@@ -102,6 +108,9 @@ export const data = [
     },
     manager_id: null,
     can_edit: false,
+    distance: "6 Kms",
+    amountPerDay: 249,
+    bulkAmount: 2400
   },
   {
     id: "471c30b4-e91c-4392-9ebe-b4c1ad4a7b63",
@@ -117,7 +126,7 @@ export const data = [
     description: null,
     rules: null,
     amenities: null,
-    images: ["/public/assets/images/0dfe4977f25940aa9d32507d4a233c9c.jpg"],
+    image: "/src/assets/images/data/0dfe4977f25940aa9d32507d4a233c9c.jpg",
     working_hours_start: "00:00",
     working_hours_end: "23:59",
     facilities: null,
@@ -136,6 +145,9 @@ export const data = [
     },
     manager_id: null,
     can_edit: false,
+    distance: "6 Kms",
+    amountPerDay: 249,
+    bulkAmount: 2400
   },
   {
     id: "298a504d-c5cd-4456-a132-e3a8f18a4a43",
@@ -150,7 +162,7 @@ export const data = [
     description: null,
     rules: null,
     amenities: ["Conferencing facilities", "Parking"],
-    images: ["/public/assets/images/4d85410baa074351aa948fc2c5da50d9.jpg"],
+    image: "/src/assets/images/data/4d85410baa074351aa948fc2c5da50d9.jpg",
     working_hours_start: "00:00",
     working_hours_end: "23:59",
     facilities: null,
@@ -169,5 +181,81 @@ export const data = [
     },
     manager_id: null,
     can_edit: false,
+    distance: "6 Kms",
+    amountPerDay: 249,
+    bulkAmount: 2400
+  },
+  {
+    id: "292caef7-95a4-493d-9575-5524b12eb0a5",
+    name: "HSR Sector 6 Service Road",
+    address:
+      "L-194, Santhosapuram, Sector 6, HSR Layout, Bengaluru, Karnataka 560101, India",
+    latitude: 12.9180167,
+    longitude: 77.6247532,
+    city: "Bengaluru",
+    state: "Karnataka",
+    country: "India",
+    postal_code: "560101",
+    description: null,
+    rules: null,
+    amenities: ["Conferencing facilities", "Parking"],
+    image: "/src/assets/images/data/0a74575ca6004b4bb20dcd131afc5849.jpg",
+    working_hours_start: "00:00",
+    working_hours_end: "23:59",
+    facilities: null,
+    is_active: true,
+    is_day_pass_enabled: true,
+    day_pass_price: 249,
+    day_pass_discounts_percentage: {
+      1: {
+        value: 0,
+        message: "",
+      },
+      10: {
+        value: 20,
+        message: "Pay for 8 Days, Get 2 Days Complimentary",
+      },
+    },
+    manager_id: null,
+    can_edit: false,
+    distance: "6 Kms",
+    amountPerDay: 249,
+    bulkAmount: 2400
   },
 ];
+
+
+export const facilitiesListDetails = [
+  {
+    label: "Community Events",
+    icon: "/src/assets/images/facilities/community-events.svg"
+  },
+  {
+    label: "Gym Facilities",
+    icon: "/src/assets/images/facilities/gym.svg"
+  },
+  {
+    label: "Highspeed Wifi",
+    icon: "/src/assets/images/facilities/wifi.svg"
+  },
+  {
+    label: "Cafe & Tea Bar",
+    icon: "/src/assets/images/facilities/cafe.svg"
+  },
+  {
+    label: "Affordable",
+    icon: "/src/assets/images/facilities/affordable.svg"
+  },
+  {
+    label: "Comfort Lounges",
+    icon: "/src/assets/images/facilities/lounges.svg"
+  },
+  {
+    label: "Quick Booking",
+    icon: "/src/assets/images/facilities/quick-booking.svg"
+  },
+  {
+    label: "Sports Area",
+    icon: "/src/assets/images/facilities/sports.svg"
+  },
+]
